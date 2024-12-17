@@ -1,21 +1,7 @@
 <template>
-  <h1>
-    {{ message }}
-  </h1>
-  <HelloWorld />
+  <router-view/>
 </template>
 
-<script>
-import HelloWorld from "~/components/HelloWorld.vue";
-
-export default {
-  components: {
-    HelloWorld,
-  },
-  data() {
-    return {
-      message: "Hello World!",
-    };
-  },
-};
+<script setup lang="ts">
 </script>
+<style></style>

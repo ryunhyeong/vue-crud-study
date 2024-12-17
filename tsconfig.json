@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // ECMAScript 버전
+    "module": "esnext", // 모듈 시스템
+    "strict": true, // 엄격한 타입 검사
+    "jsx": "preserve", // JSX를 유지
+    "moduleResolution": "node", // 모듈 해석 방식
+    "esModuleInterop": true, // ES 모듈과 CommonJS 모듈 간의 호환성
+    "skipLibCheck": true, // 라이브러리 체크 건너뛰기
+    "forceConsistentCasingInFileNames": true // 파일 이름 대소문자 일관성 강제
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

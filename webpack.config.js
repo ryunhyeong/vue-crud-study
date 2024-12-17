@@ -42,6 +42,13 @@ module.exports = {
         ],
       },
       {
+        test: /\.ts$/,
+        loader: 'ts-loader',
+        options: {
+          appendTsSuffixTo: [/\.vue$/],
+        },
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/, // 제외할 경로
         use: ["babel-loader"],
